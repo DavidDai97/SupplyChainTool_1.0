@@ -12,7 +12,7 @@ public class GetExcelInfo {
     public static void main(String[] args) {
 	// write your code here
         GetExcelInfo obj = new GetExcelInfo();
-        File file = new File("myFile.xls");
+        File file = new File("myFile.xls"); // Read files.
         obj.readExcel(file);
     }
     public void readExcel(File file) {
